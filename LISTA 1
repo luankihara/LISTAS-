@@ -1,218 +1,173 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[codz]
-*$py.class
+print("Olá! mundo da programação!")
 
-# C extensions
-*.so
+#JUSTIFICANDO: Creio que não tem muito o que comentar nesse, o print seria o básico de python, a funçao dele é "transmitir" a mensagem que esta 
+                #dentro do parenteses e aspas, e ele vai transmitir no input
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+#xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-# PyInstaller
-#   Usually these files are written by a python script from a template
-#   before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+print("Luan Yudi Silva Kihara")
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+#xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py.cover
-.hypothesis/
-.pytest_cache/
-cover/
 
-# Translations
-*.mo
-*.pot
+print("Introdução a Programação de Computadores")
+print("Luan Kihara")
+print("Estou aprendendo Python!")
 
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
+#xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-# Flask stuff:
-instance/
-.webassets-cache
 
-# Scrapy stuff:
-.scrapy
+print("Meu nome: Luan Yudi Silva Kihara")
+print("Minha idade: 20 anos")
+print("Minha cidade: Maringá")
+print("Meu curso: Analise e Desenvolvimento de Sistemas")
 
-# Sphinx documentation
-docs/_build/
+#JUSTIFICANDO: Mesma funçao dos exercicios anteriores, apenas coloquei as informaçoes que o exercicio esta pedindo, e mostrei na tela (input).
 
-# PyBuilder
-.pybuilder/
-target/
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-# Jupyter Notebook
-.ipynb_checkpoints
+filme = "Homem Aranha"
+lançamento = "2002"
+nota = "8.7"
 
-# IPython
-profile_default/
-ipython_config.py
+print(f"filme: {filme}")
+print(f"lançamento: {lançamento}")
+print(f"nota: {nota}")
 
-# pyenv
-#   For a library or package, you might want to ignore these files since the code is
-#   intended to run in multiple environments; otherwise, check them in:
-# .python-version
+#JUSTIFICANDO: aqui coloquei 3 variaveis com informaçoes, logo depois transmiti as informaçoes das variaveis atraves do codigo "print(f)"
 
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-# Pipfile.lock
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-# UV
-#   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
-#   This is especially recommended for binary packages to ensure reproducibility, and is more
-#   commonly ignored for libraries.
-# uv.lock
 
-# poetry
-#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
-#   This is especially recommended for binary packages to ensure reproducibility, and is more
-#   commonly ignored for libraries.
-#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
-# poetry.lock
-# poetry.toml
+Produto = "Iphone 17"
+Preço = 5600.99
+Quantidade = "96 aparelhos"
 
-# pdm
-#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
-#   pdm recommends including project-wide configuration in pdm.toml, but excluding .pdm-python.
-#   https://pdm-project.org/en/latest/usage/project/#working-with-version-control
-# pdm.lock
-# pdm.toml
-.pdm-python
-.pdm-build/
+print(f"Produto: {Produto}")
+print(f"Preço: R${Preço}")
+print(f"Em estoque: {Quantidade}")
 
-# pixi
-#   Similar to Pipfile.lock, it is generally recommended to include pixi.lock in version control.
-# pixi.lock
-#   Pixi creates a virtual environment in the .pixi directory, just like venv module creates one
-#   in the .venv directory. It is recommended not to include this directory in version control.
-.pixi
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
-__pypackages__/
+Nome = "Luan Kihara"
+Turma = "3°A"
+Média = 8.5
 
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
+print(f"O nome do aluno é: {Nome}")
+print(f"A turma do aluno é: {Turma}")
+print(f"A Media Final do aluno é: {Média}")
 
-# Redis
-*.rdb
-*.aof
-*.pid
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-# RabbitMQ
-mnesia/
-rabbitmq/
-rabbitmq-data/
+destino = "Maceió"
+dias = "7 dias"
+valor_passagem = 2478.65
+meio_transporte = "aéreo"
 
-# ActiveMQ
-activemq-data/
+print(f"Eu pretendo viajar para: {destino}")
+print(f"Eu irei ficar: {dias}")
+print(f"Eu paguei R$: {valor_passagem}")
+print(f"O meio de locomoção seria: {meio_transporte}")
 
-# SageMath parsed files
-*.sage.py
 
-# Environments
-.env
-.envrc
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-# Spyder project settings
-.spyderproject
-.spyproject
+print(type("Python"))
+print(type(2026))
+print(type(3.14))
+print(type(False))
 
-# Rope project settings
-.ropeproject
+#JUSTIFICANDO: Aqui basicamente, usei este codigo para saber se o objeto é de que "tipo", exemplo: se seria str, int, bool ou float.
 
-# mkdocs documentation
-/site
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
 
-# Pyre type checker
-.pyre/
+Meu_nome = "Luan"
+Minha_idade = 20
+Meu_saldo_bancario = 55.40
+Jogo_volei = True
 
-# pytype static type analyzer
-.pytype/
+print(type(Meu_nome))
+print(type(Minha_idade))
+print(type(Meu_saldo_bancario))
+print(type(Jogo_volei))
 
-# Cython debug symbols
-cython_debug/
+#JUSTIFICANDO: Criei variaveis com informaçoes, e depois verifiquei de que tipo elas sao.
 
-# PyCharm
-#   JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#   be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#   and can be added to the global gitignore or merged into this file.  For a more nuclear
-#   option (not recommended) you can uncomment the following to ignore the entire idea folder.
-# .idea/
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-# Abstra
-#   Abstra is an AI-powered process automation framework.
-#   Ignore directories containing user credentials, local state, and settings.
-#   Learn more at https://abstra.io/docs
-.abstra/
 
-# Visual Studio Code
-#   Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore 
-#   that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
-#   and can be added to the global gitignore or merged into this file. However, if you prefer, 
-#   you could uncomment the following to ignore the entire vscode folder
-# .vscode/
-# Temporary file for partial code execution
-tempCodeRunnerFile.py
+# OBS: VEJA BEM A DIFERENCA QUE TEM ENTRE O "TEXTO", "INTEIRO", "DECIMAL" E "LOGICO"
+print(type("123"))
+print(type(123))
+print(type(12.3))
+print(type(True))
 
-# Ruff stuff:
-.ruff_cache/
+#JUSTIFICANDO: usei esse codigo para saber de que tipo estes valores sao
 
-# PyPI configuration file
-.pypirc
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-# Marimo
-marimo/_static/
-marimo/_lsp/
-__marimo__/
 
-# Streamlit
-.streamlit/secrets.toml
+nome_cidade = "Curitiba"
+qt_habitantes = 1773.718
+temperatura_media = "25°C"
+chuva = True
+
+print(type(nome_cidade))
+print(type(qt_habitantes))
+print(type(temperatura_media))
+print(type(chuva))
+
+#JUSTIFICANDO: Criei variaveis e depois verifiquei de que tipo as minhas variaveis sao.
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+idade_texto = "18"
+
+idade = int(idade_texto)
+print(idade)
+print(type(idade))
+
+#JUSTIFICANDO: Basicamente criei uma variavel que ela é do tipo "str" depois transformei ela em "int" e depois verifiquei o tipo do objeto
+                #apos a conversao
+
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+preco_texto = "59.90"
+preco = float(preco_texto)
+print(f"{preco}")
+print (type(preco))
+
+#JUSTIFICANDO: Mesma coisa da ultima, fiz uma conversao de str para float e depois verifiquei se a conversao foi certo
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+numero = 10
+numero = str(numero)
+print(f"{numero}")
+print(type(numero))
+
+#JUSTIFICANDO: Fiz uma conversao do int para str
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+numero_i = "45"
+numero_d = "7.8"
+
+numero_i = int(numero_i)
+numero_d = float(numero_d)
+print(f"{numero_i}")
+print(f"{numero_d}")
+print(type(numero_i))
+print(type(numero_d))
+
+#JUSTIFICANDO: Aqui criei 2 variaveis em str, e depois transformei elas em int e float, respectivamente. Depois verifiquei se eu fiz a 
+                #conversao de forma correta
+
+
+
+ 
